@@ -54,7 +54,7 @@ function Login(props) {
                     </div>
                     <div className='form-group p-4'>
                     <label htmlFor="password" className='text-lg font-semibold'>Password:</label>
-                    <input type="pswrd" 
+                    <input type="password" 
                     className='mt-2.5 form-control h-11 w-full scroll-py-3 scroll-px-5 scroll-my-2 scroll-mx-0 inline-block box-border border border-solid border-inherit bg-stone-50 focus:outline-none focus:border-current focus:bg-white'
                     {...register("password")} 
                     />
